@@ -3,10 +3,10 @@ import pickle
 import numpy as np
 
 # Load saved model and scaler
-with open("models/churn_model.pkl", "rb") as f:
+with open("churn_model.pkl", "rb") as f:
     model = pickle.load(f)
 
-with open("models/scaler.pkl", "rb") as f:
+with open("scaler.pkl", "rb") as f:
     scaler = pickle.load(f)
 
 # Page title
